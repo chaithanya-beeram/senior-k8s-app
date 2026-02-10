@@ -7,4 +7,5 @@ on:
 
 jobs:
   build-and-scan:
+    runs-on: ubuntu-latest
 # ... the rest of your file ...
