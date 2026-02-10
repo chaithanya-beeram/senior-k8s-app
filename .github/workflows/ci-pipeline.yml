@@ -1,0 +1,10 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch: # This adds a "Run" button so you can start it manually!
+
+jobs:
+  build-and-scan:
+# ... the rest of your file ...
